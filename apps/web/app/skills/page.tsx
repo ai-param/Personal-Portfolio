@@ -1,6 +1,7 @@
 import { BackgroundGradient } from "@/components/ui/background-gradient";
 import { Button } from "@/components/ui/button"
 import * as Icons from "react-icons/si";
+import { IconType } from "react-icons";
 
 export default () => {
     const skill = [
@@ -26,7 +27,8 @@ export default () => {
             <div className="grid m-4 grid-cols-6 gap-4">
                 {
                     skill.map((data,key)=>{
-                        const IconComponent = Icons[`Si${data}`.replace(/\s/g, "")];
+                        const IconName = `Si${data}`.replace(/\s/g, "");
+                        const IconComponent = (Icons as Record<string,IconType>)[IconName];
                         return (<Button key={key} variant={"outline"} className="font-bold">
                             {IconComponent && <IconComponent/>}
                             {data}
