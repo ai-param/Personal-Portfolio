@@ -20,7 +20,7 @@ const navitems = [
         link:"/projects"
     },
     {
-        name:"Contact ME",
+        name:"Contact",
         link:"/contact"
     }
 ]

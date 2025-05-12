@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { ThemeProvider } from "@/components/provider";
 import { Spotlight } from "@/components/Spotlight";
+import Navbar from "@/components/Navbar";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -30,6 +31,7 @@ export default function RootLayout({
   }}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
         <Spotlight className="opacity-40 mix-blend-screen" fill="#4f46e5"/>
+        <Navbar/>
         <div>
         {children}
         </div>
