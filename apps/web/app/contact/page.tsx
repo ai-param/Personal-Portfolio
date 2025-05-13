@@ -1,5 +1,4 @@
-import { Button } from "@/components/ui/button"
-import { CardSpotlight } from "@/components/ui/card-spotlight"
+import { CardSpotlight } from "@/components/ui/card-spotlight";
 
 export default () => {
     const socials = [
