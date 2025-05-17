@@ -25,32 +25,32 @@ export default () => {
         {
             title:"Codeforces",
             description:"Contest League",
-            link:"https://www.codeforces.com"
+            link:"https://codeforces.com/profile/param_codes"
         },
         {
             title:"Leetcode",
             description:"This is Real Deal",
-            link:"https://www.leetcode.com"
+            link:"https://leetcode.com/u/master-aira/"
         },
         {
             title:"Codechef",
             description:"Every Wednesday",
-            link:"https://www.codechef.com"
+            link:"https://www.codechef.com/users/paramcodes"
         },
         {
             title:"Atcoder",
             description:"Every Saturday and Sunday",
-            link:"https://atcoder.jp"
+            link:"https://atcoder.jp/users/paramcodes"
         },
         {
             title:"GeeksforGeeks",
             description:"Problems hi Problems",
-            link:"https://www.geeksforgeek.com"
+            link:"https://www.geeksforgeeks.org/user/paramcodes/"
         },
         {
             title:"Interviewbit",
             description:"OA Problems",
-            link:"https://www.interviewbit.com"
+            link:"https://www.interviewbit.com/profile/param_759/"
         }
     ]
     
