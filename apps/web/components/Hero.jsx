@@ -37,7 +37,7 @@ export default function Hero(){
     const router = useRouter();
     const HandleDownload = () => {
         const link = document.createElement('a');
-        link.href = "resume.pdf";
+        link.href = "resume_v3.pdf";
         link.download = "Resume.pdf";
         document.body.appendChild(link);
         link.click();
